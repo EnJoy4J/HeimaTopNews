@@ -1,0 +1,10 @@
+.idea
+*.iml
+target
+*.dat
+*.md
+mvnw
+*.cmd
+*.jar
+*.war
+
