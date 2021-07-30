@@ -4,7 +4,7 @@ import com.baomidou.mybatisplus.extension.service.IService;
 import com.heima.model.admin.dtos.ChannelDto;
 import com.heima.model.admin.pojos.AdChannel;
 import com.heima.model.common.dtos.ResponseResult;
-import org.springframework.stereotype.Service;
+
 
 public interface AdChannelService extends IService<AdChannel> {
     /**
@@ -12,5 +12,14 @@ public interface AdChannelService extends IService<AdChannel> {
      * @param dto
      * @return
      */
-    public ResponseResult findByNameAndPage(ChannelDto dto);
+    ResponseResult findByNameAndPage(ChannelDto dto);
+
+    /**
+     * 添加频道
+     * @param adChannel
+     * @return
+     */
+    ResponseResult insert(AdChannel adChannel);
+
+
 }
