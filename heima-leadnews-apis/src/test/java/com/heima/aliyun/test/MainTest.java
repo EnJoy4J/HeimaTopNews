@@ -1,6 +1,6 @@
 package com.heima.aliyun.test;
 
-import com.heima.common.aliyun.GreenImageScan;
+//import com.heima.common.aliyun.GreenImageScan;
 import org.apache.commons.io.FileUtils;
 
 import java.io.File;

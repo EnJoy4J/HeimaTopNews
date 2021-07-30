@@ -109,7 +109,9 @@ public class AdChannelServiceImpl extends ServiceImpl<AdChannelMapper, AdChannel
         //创建条件查询对象
         LambdaQueryWrapper<AdChannel> queryWrapper = new LambdaQueryWrapper<>();
         //设置模糊查询返回以及匹配对象
-        queryWrapper.like(AdChannel::getName, dto.getName());
+        if (StringUtils.isNotBlank(dto.getName())){
+            queryWrapper.like(AdChannel::getName, dto.getName());
+        }
         //根据分页参数，查询条件得到查询结果
         //todo 为什么这里IPage对象里面还有一个IPage
         IPage result = page(page, queryWrapper);
