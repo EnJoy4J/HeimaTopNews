@@ -21,5 +21,17 @@ public interface AdChannelService extends IService<AdChannel> {
      */
     ResponseResult insert(AdChannel adChannel);
 
+    /**
+     * 修改频道
+     * @param adChannel
+     * @return
+     */
+    ResponseResult update(AdChannel adChannel);
 
+    /**
+     * 删除频道
+     * @param id
+     * @return
+     */
+    ResponseResult deleteById(Integer id);
 }

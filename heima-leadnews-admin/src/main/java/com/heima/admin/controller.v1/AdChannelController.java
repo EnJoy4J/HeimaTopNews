@@ -6,10 +6,9 @@ import com.heima.model.admin.dtos.ChannelDto;
 import com.heima.model.admin.pojos.AdChannel;
 import com.heima.model.common.dtos.ResponseResult;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+
+import javax.ws.rs.PathParam;
 
 
 @RestController
@@ -38,6 +37,24 @@ public class AdChannelController implements AdChannelControllerApi {
     @Override
     public ResponseResult save(@RequestBody AdChannel adChannel) {
         return adChannelService.insert(adChannel);
+    }
+
+
+    /**
+     * 修改频道
+     * @param adChannel
+     * @return
+     */
+    @PostMapping("/update")
+    @Override
+    public ResponseResult update(@RequestBody AdChannel adChannel) {
+        return adChannelService.update(adChannel);
+    }
+
+    @GetMapping("/del/{id}")
+    @Override
+    public ResponseResult deleteById(@PathVariable("id") Integer id) {
+        return adChannelService.deleteById(id);
     }
 
 

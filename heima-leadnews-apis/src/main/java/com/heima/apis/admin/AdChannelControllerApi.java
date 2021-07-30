@@ -25,4 +25,19 @@ public interface AdChannelControllerApi {
     public  ResponseResult save(AdChannel adChannel);
 
 
+    /**
+     * 修改频道
+     * @param adChannel
+     * @return
+     */
+    @ApiOperation("修改频道")
+    public ResponseResult update(AdChannel adChannel);
+
+    /**
+     * 删除频道
+     * @param id
+     * @return
+     */
+    @ApiOperation("删除频道")
+    public ResponseResult deleteById(Integer id);
 }
