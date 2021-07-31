@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b71271f-c217-441b-80c2-1b3ec1ee4477" name="Default Changelist" comment="AdChannel-save">
+    <list default="true" id="6b71271f-c217-441b-80c2-1b3ec1ee4477" name="Default Changelist" comment="AdChannel-deleteById">
+      <change afterPath="$PROJECT_DIR$/log/leadnews.2021-07-31.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima-leadnews-admin/src/main/java/com/heima/admin/controller.v1/AdChannelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-admin/src/main/java/com/heima/admin/controller.v1/AdChannelController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima-leadnews-admin/src/main/java/com/heima/admin/service/AdChannelService.java" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-admin/src/main/java/com/heima/admin/service/AdChannelService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima-leadnews-admin/src/main/java/com/heima/admin/service/AdChannelServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-admin/src/main/java/com/heima/admin/service/AdChannelServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima-leadnews-apis/src/main/java/com/heima/apis/admin/AdChannelControllerApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-apis/src/main/java/com/heima/apis/admin/AdChannelControllerApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-admin/src/main/java/com/heima/admin/service/AdChannelServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-admin/src/main/java/com/heima/admin/service/Impl/AdChannelServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-common/heima-leadnews-common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-common/heima-leadnews-common.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-model/src/main/java/com/heima/model/common/enums/AppHttpCodeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-model/src/main/java/com/heima/model/common/enums/AppHttpCodeEnum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,6 +158,9 @@
       <workItem from="1626867988233" duration="654000" />
       <workItem from="1627449788019" duration="5271000" />
       <workItem from="1627533466761" duration="20529000" />
+      <workItem from="1627657082922" duration="85000" />
+      <workItem from="1627692752384" duration="294000" />
+      <workItem from="1627694366929" duration="4274000" />
     </task>
     <task id="LOCAL-00001" summary="设置git.ignore">
       <created>1626868489890</created>

@@ -1,10 +1,11 @@
-package com.heima.admin.service;
+package com.heima.admin.service.Impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.heima.admin.mapper.AdChannelMapper;
+import com.heima.admin.service.AdChannelService;
 import com.heima.model.admin.dtos.ChannelDto;
 import com.heima.model.admin.pojos.AdChannel;
 import com.heima.model.common.dtos.PageResponseResult;
@@ -118,6 +119,7 @@ public class AdChannelServiceImpl extends ServiceImpl<AdChannelMapper, AdChannel
         if (channel.getStatus()){
             return ResponseResult.errorResult(AppHttpCodeEnum.PARAM_INVALID,"频道有效，无法删除");
         }
+        int a= 1/0;
         //3.删除频道
         removeById(id);
         return ResponseResult.okResult(AppHttpCodeEnum.SUCCESS);
