@@ -5,7 +5,6 @@ import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.heima.admin.mapper.AdSensitiveMapper;
-import com.heima.admin.service.AdChannelService;
 import com.heima.admin.service.AdSensitiveService;
 import com.heima.model.admin.dtos.SensitiveDto;
 import com.heima.model.admin.pojos.AdSensitive;
@@ -15,7 +14,9 @@ import com.heima.model.common.enums.AppHttpCodeEnum;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.stereotype.Service;
 
+import java.util.Date;
 import java.util.List;
+
 @Service
 public class AdSensitiveServiceImpl
         extends ServiceImpl<AdSensitiveMapper, AdSensitive>
@@ -54,16 +55,42 @@ public class AdSensitiveServiceImpl
 
     @Override
     public ResponseResult insert(AdSensitive adSensitive) {
-        return null;
+        //1.参数判断
+        if (null == adSensitive) {
+            return ResponseResult.errorResult(AppHttpCodeEnum.PARAM_INVALID);
+        }
+        if (StringUtils.isBlank(adSensitive.getSensitives())) {
+            return ResponseResult.errorResult(AppHttpCodeEnum.PARAM_INVALID);
+        }
+        adSensitive.setCreated_time(new Date());
+        save(adSensitive);
+        return ResponseResult.okResult(AppHttpCodeEnum.SUCCESS);
     }
 
     @Override
     public ResponseResult deleteById(Integer id) {
-        return null;
+        if (null == id) {
+            return ResponseResult.errorResult(AppHttpCodeEnum.PARAM_INVALID);
+        }
+        AdSensitive adSensitive = getById(id);
+        if (null == adSensitive) {
+            return ResponseResult.errorResult(AppHttpCodeEnum.DATA_NOT_EXIST);
+        }
+        removeById(id);
+        return ResponseResult.okResult(AppHttpCodeEnum.SUCCESS);
     }
 
     @Override
     public ResponseResult update(AdSensitive adSensitive) {
-        return null;
+        //如果对象为空，那么返回失败
+        if (null == adSensitive) {
+            return ResponseResult.errorResult(AppHttpCodeEnum.DATA_NOT_EXIST);
+        }
+        //如果对象 敏感词为空，那么返回失败
+        if (StringUtils.isBlank(adSensitive.getSensitives())){
+            return ResponseResult.errorResult(AppHttpCodeEnum.PARAM_INVALID);
+        }
+        updateById(adSensitive);
+        return ResponseResult.okResult(AppHttpCodeEnum.SUCCESS);
     }
 }

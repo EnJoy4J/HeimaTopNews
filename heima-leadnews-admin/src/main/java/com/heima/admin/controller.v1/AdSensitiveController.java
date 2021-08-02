@@ -12,6 +12,8 @@ import com.heima.model.common.dtos.ResponseResult;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+
+
 @RestController
 @RequestMapping("/api/v1/sensitive")
 public class AdSensitiveController implements AdSensitiveControllerApi {
@@ -26,17 +28,20 @@ public class AdSensitiveController implements AdSensitiveControllerApi {
     }
 
     @Override
-    public ResponseResult insert(AdSensitive adSensitive) {
-        return null;
+    @PostMapping("/insert")
+    public ResponseResult insert(@RequestBody AdSensitive adSensitive) {
+        return adSensitiveService.insert(adSensitive);
     }
 
     @Override
-    public ResponseResult deleteById(Integer id) {
-        return null;
+    @GetMapping("/del/{id}")
+    public ResponseResult   deleteById(@PathVariable("id") Integer id) {
+        return adSensitiveService.deleteById(id);
     }
 
     @Override
-    public ResponseResult update(AdSensitive adSensitive) {
-        return null;
+    @PostMapping("/update")
+    public ResponseResult update(@RequestBody AdSensitive adSensitive) {
+        return adSensitiveService.update(adSensitive);
     }
 }

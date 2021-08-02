@@ -4,16 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b71271f-c217-441b-80c2-1b3ec1ee4477" name="Default Changelist" comment="通用异常类">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heima-leadnews-admin/src/main/java/com/heima/admin/controller.v1/AdSensitiveController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heima-leadnews-admin/src/main/java/com/heima/admin/mapper/AdSensitiveMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heima-leadnews-admin/src/main/java/com/heima/admin/service/AdSensitiveService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heima-leadnews-admin/src/main/java/com/heima/admin/service/Impl/AdSensitiveServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heima-leadnews-apis/src/main/java/com/heima/apis/admin/AdSensitiveControllerApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heima-leadnews-model/src/main/java/com/heima/model/admin/dtos/SensitiveDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heima-leadnews-model/src/main/java/com/heima/model/admin/pojos/AdSensitive.java" afterDir="false" />
+    <list default="true" id="6b71271f-c217-441b-80c2-1b3ec1ee4477" name="Default Changelist" comment="敏感词管理-分页查询操作">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-admin/src/main/java/com/heima/admin/controller.v1/AdChannelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-admin/src/main/java/com/heima/admin/controller.v1/AdChannelController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-admin/src/main/java/com/heima/admin/controller.v1/AdSensitiveController.java" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-admin/src/main/java/com/heima/admin/controller.v1/AdSensitiveController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-admin/src/main/java/com/heima/admin/service/Impl/AdSensitiveServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-admin/src/main/java/com/heima/admin/service/Impl/AdSensitiveServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-apis/src/main/java/com/heima/apis/admin/AdSensitiveControllerApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-apis/src/main/java/com/heima/apis/admin/AdSensitiveControllerApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-common/heima-leadnews-common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-common/heima-leadnews-common.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/leadnews.2021-07-31.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/leadnews.2021-07-31.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,11 +75,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/heima-leadnews-apis" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.14941406" />
     <property name="project.structure.side.proportion" value="0.20418847" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
@@ -107,19 +104,6 @@
     <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test" />
       <module name="heima-leadnews-apis" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -172,7 +156,13 @@
       <workItem from="1627657082922" duration="85000" />
       <workItem from="1627692752384" duration="294000" />
       <workItem from="1627694366929" duration="12100000" />
-      <workItem from="1627728329107" duration="1981000" />
+      <workItem from="1627728329107" duration="2150000" />
+      <workItem from="1627730547012" duration="6418000" />
+      <workItem from="1627780077405" duration="151000" />
+      <workItem from="1627798645767" duration="2164000" />
+      <workItem from="1627866504008" duration="2371000" />
+      <workItem from="1627908493819" duration="1620000" />
+      <workItem from="1627918054285" duration="447000" />
     </task>
     <task id="LOCAL-00001" summary="设置git.ignore">
       <created>1626868489890</created>
@@ -195,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627711528361</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="敏感词管理-分页查询操作">
+      <created>1627730382161</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1627730382161</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,7 +227,8 @@
     <MESSAGE value="设置git.ignore" />
     <MESSAGE value="AdChannel-save" />
     <MESSAGE value="通用异常类" />
-    <option name="LAST_COMMIT_MESSAGE" value="通用异常类" />
+    <MESSAGE value="敏感词管理-分页查询操作" />
+    <option name="LAST_COMMIT_MESSAGE" value="敏感词管理-分页查询操作" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

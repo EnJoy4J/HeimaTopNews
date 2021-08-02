@@ -23,6 +23,7 @@ public interface AdSensitiveControllerApi {
      * @param adSensitive
      * @return
      */
+    @ApiOperation("添加敏感词")
     public ResponseResult insert(AdSensitive adSensitive);
 
     /**
@@ -30,6 +31,7 @@ public interface AdSensitiveControllerApi {
      * @param id
      * @return
      */
+    @ApiOperation("根据id删除敏感词")
     public ResponseResult deleteById(Integer id);
 
     /**
@@ -37,6 +39,7 @@ public interface AdSensitiveControllerApi {
      * @param adSensitive
      * @return
      */
+    @ApiOperation("修改敏感词")
     public ResponseResult update(AdSensitive adSensitive);
 
 
