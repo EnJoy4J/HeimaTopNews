@@ -51,7 +51,11 @@ public class AdChannelController implements AdChannelControllerApi {
         return adChannelService.update(adChannel);
     }
 
-
+    /**
+     * 删除频道
+     * @param id
+     * @return
+     */
     @GetMapping("/del/{id}")
     @Override
     public ResponseResult deleteById(@PathVariable("id") Integer id) {

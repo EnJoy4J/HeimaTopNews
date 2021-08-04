@@ -26,8 +26,8 @@ public class AdSensitiveServiceImpl
     @Override
     public ResponseResult list(SensitiveDto sensitiveDto) {
         //检查参数
-        String dtoName = sensitiveDto.getName();
-        if (null == dtoName) {
+//        String dtoName = sensitiveDto.getName();
+        if (null == sensitiveDto) {
             return ResponseResult.errorResult(AppHttpCodeEnum.PARAM_INVALID);
         }
         sensitiveDto.checkParam();
@@ -40,16 +40,17 @@ public class AdSensitiveServiceImpl
         //判断敏感词是否不为空(有内容：设置为模糊查询；没有内容：设置为查询所有)
         if (StringUtils.isNotBlank(sensitiveDto.getName())) {
             //如果不为空
-            lambdaQueryWrapper.like(AdSensitive::getSensitives, sensitiveDto.getName());
+            lambdaQueryWrapper.like(
+                    AdSensitive::getSensitives, sensitiveDto.getName());
         }
         //根据条件进行分页查询
         IPage result = page(page, lambdaQueryWrapper);
         //封装返回值属性
-        ResponseResult responseResult = new PageResponseResult(sensitiveDto.getPage(), sensitiveDto.getSize(), (int) result.getTotal());
+        ResponseResult responseResult = new PageResponseResult(
+                sensitiveDto.getPage(), sensitiveDto.getSize(), (int) result.getTotal());
         //封装返回值查询结果
-        responseResult.setData(result);
+        responseResult.setData(result.getRecords());
         //返回结果对象
-        System.out.println(result);
         return responseResult;
     }
 

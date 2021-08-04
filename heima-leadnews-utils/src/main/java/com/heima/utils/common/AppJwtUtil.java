@@ -9,13 +9,14 @@ import java.util.*;
 public class AppJwtUtil {
 
     // TOKEN的有效期一天（S）
+    //设置token有效期
     private static final int TOKEN_TIME_OUT = 3_600;
     // 加密KEY
     private static final String TOKEN_ENCRY_KEY = "MDk4ZjZiY2Q0NjIxZDM3M2NhZGU0ZTgzMjYyN2I0ZjY";
-    // 最小刷新间隔(S)
+    // 最小的刷新时间
     private static final int REFRESH_TIME = 300;
 
-    // 生产ID
+    // 生产 ID
     public static String getToken(Long id){
         Map<String, Object> claimMaps = new HashMap<>();
         claimMaps.put("id",id);

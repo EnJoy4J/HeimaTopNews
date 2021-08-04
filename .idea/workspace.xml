@@ -4,14 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b71271f-c217-441b-80c2-1b3ec1ee4477" name="Default Changelist" comment="敏感词管理-分页查询操作">
+    <list default="true" id="6b71271f-c217-441b-80c2-1b3ec1ee4477" name="Default Changelist" comment="敏感词-增删改">
+      <change afterPath="$PROJECT_DIR$/.idea/GrepConsole.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/intellij-javadocs-4.0.1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/mybatisx/templates.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-admin/src/main/java/com/heima/admin/controller.v1/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-admin/src/main/java/com/heima/admin/mapper/AdUserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-admin/src/main/java/com/heima/admin/service/Impl/AdUserLoginServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-admin/src/main/java/com/heima/admin/service/Impl/UserLoginServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-admin/src/main/java/com/heima/admin/service/UserLoginService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-apis/src/main/java/com/heima/apis/admin/LoginControllerApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-model/src/main/java/com/heima/model/admin/dtos/AdUserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/leadnews.2021-08-03.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/leadnews.2021-08-04.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/heima-leadnews-admin/src/main/java/com/heima/admin/controller.v1/AdChannelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-admin/src/main/java/com/heima/admin/controller.v1/AdChannelController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/heima-leadnews-admin/src/main/java/com/heima/admin/controller.v1/AdSensitiveController.java" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-admin/src/main/java/com/heima/admin/controller.v1/AdSensitiveController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-admin/src/main/java/com/heima/admin/mapper/AdSensitiveMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-admin/src/main/java/com/heima/admin/mapper/AdSensitiveMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-admin/src/main/java/com/heima/admin/service/Impl/AdChannelServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-admin/src/main/java/com/heima/admin/service/Impl/AdChannelServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/heima-leadnews-admin/src/main/java/com/heima/admin/service/Impl/AdSensitiveServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-admin/src/main/java/com/heima/admin/service/Impl/AdSensitiveServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima-leadnews-apis/src/main/java/com/heima/apis/admin/AdSensitiveControllerApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-apis/src/main/java/com/heima/apis/admin/AdSensitiveControllerApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima-leadnews-common/heima-leadnews-common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-common/heima-leadnews-common.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/leadnews.2021-07-31.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/leadnews.2021-07-31.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-common/src/test/java/com/heima/password/test/MD5Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-common/src/test/java/com/heima/password/test/MD5Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-model/src/main/java/com/heima/model/admin/pojos/AdUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-model/src/main/java/com/heima/model/admin/pojos/AdUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-utils/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-utils/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-utils/src/main/java/com/heima/utils/common/AppJwtUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-utils/src/main/java/com/heima/utils/common/AppJwtUtil.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +91,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/heima-leadnews-apis" />
+    <property name="last_opened_file_path" value="C:/Java/Project/other-test" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.14941406" />
     <property name="project.structure.side.proportion" value="0.20418847" />
@@ -86,9 +103,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.heima.admin.mapper" />
       <recent name="com.heima.admin.service" />
       <recent name="com.heima.model.admin.dtos" />
+      <recent name="com.heima.admin.mapper" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Project1\AllTanhua\tanhuagit\HeimaTopNews\heima-leadnews-apis" />
@@ -101,6 +118,19 @@
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.AdminApplication">
+    <configuration name="MD5Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.heima.password.test.MD5Test" />
+      <module name="heima-leadnews-common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.heima.password.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test" />
       <module name="heima-leadnews-apis" />
@@ -134,6 +164,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.AdminApplication" />
+        <item itemvalue="Application.MD5Test" />
         <item itemvalue="JUnit.test.test1" />
         <item itemvalue="Application.test" />
       </list>
@@ -162,7 +193,15 @@
       <workItem from="1627798645767" duration="2164000" />
       <workItem from="1627866504008" duration="2371000" />
       <workItem from="1627908493819" duration="1620000" />
-      <workItem from="1627918054285" duration="447000" />
+      <workItem from="1627918054285" duration="1464000" />
+      <workItem from="1627919693359" duration="17323000" />
+      <workItem from="1627988065926" duration="1839000" />
+      <workItem from="1627994563125" duration="41000" />
+      <workItem from="1627994674180" duration="44000" />
+      <workItem from="1627994735205" duration="132000" />
+      <workItem from="1627995055805" duration="1908000" />
+      <workItem from="1627997000522" duration="242000" />
+      <workItem from="1627997267485" duration="9327000" />
     </task>
     <task id="LOCAL-00001" summary="设置git.ignore">
       <created>1626868489890</created>
@@ -192,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627730382161</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="敏感词-增删改">
+      <created>1627918558917</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1627918558917</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,7 +274,8 @@
     <MESSAGE value="AdChannel-save" />
     <MESSAGE value="通用异常类" />
     <MESSAGE value="敏感词管理-分页查询操作" />
-    <option name="LAST_COMMIT_MESSAGE" value="敏感词管理-分页查询操作" />
+    <MESSAGE value="敏感词-增删改" />
+    <option name="LAST_COMMIT_MESSAGE" value="敏感词-增删改" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

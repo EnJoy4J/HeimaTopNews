@@ -34,7 +34,7 @@ public class AdSensitiveController implements AdSensitiveControllerApi {
     }
 
     @Override
-    @GetMapping("/del/{id}")
+    @DeleteMapping("/del/{id}")
     public ResponseResult   deleteById(@PathVariable("id") Integer id) {
         return adSensitiveService.deleteById(id);
     }
