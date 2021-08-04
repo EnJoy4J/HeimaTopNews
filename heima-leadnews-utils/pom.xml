@@ -63,6 +63,11 @@
             <artifactId>jjwt</artifactId>
         </dependency>
 
+<!--        nacos注册中心-->
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+        </dependency>
     </dependencies>
 
     <properties>
