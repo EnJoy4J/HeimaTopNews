@@ -15,6 +15,7 @@ import org.springframework.context.annotation.Bean;
 @EnableDiscoveryClient
 @MapperScan("com.heima.admin.mapper")
 @SpringBootApplication
+// TODO: 2021/8/7 adminApplication服务无法启动，找不到数据库驱动？
 public class AdminApplication {
 
     public static void main(String[] args) {
