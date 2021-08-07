@@ -10,6 +10,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>heima-leadnews-admin</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>heima-leadnews-admin-gateway</module>
+    </modules>
 
     <dependencies>
         <!-- 引入依赖模块 -->
