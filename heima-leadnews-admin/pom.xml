@@ -11,9 +11,7 @@
 
     <artifactId>heima-leadnews-admin</artifactId>
     <packaging>pom</packaging>
-    <modules>
-        <module>heima-leadnews-admin-gateway</module>
-    </modules>
+
 
     <dependencies>
         <!-- 引入依赖模块 -->
@@ -38,6 +36,11 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-commons</artifactId>
+            <version>2.1.1.RELEASE</version>
         </dependency>
     </dependencies>
 

@@ -5,7 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/demo/demo.iml" filepath="$PROJECT_DIR$/demo/demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/heima-leadnews.iml" filepath="$PROJECT_DIR$/heima-leadnews.iml" />
       <module fileurl="file://$PROJECT_DIR$/heima-leadnews-admin/heima-leadnews-admin.iml" filepath="$PROJECT_DIR$/heima-leadnews-admin/heima-leadnews-admin.iml" />
-      <module fileurl="file://$PROJECT_DIR$/heima-leadnews-admin/heima-leadnews-admin-gateway/heima-leadnews-admin-gateway.iml" filepath="$PROJECT_DIR$/heima-leadnews-admin/heima-leadnews-admin-gateway/heima-leadnews-admin-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/heima-leadnews-admin-gateway/heima-leadnews-admin-gateway.iml" filepath="$PROJECT_DIR$/heima-leadnews-admin-gateway/heima-leadnews-admin-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/heima-leadnews-apis/heima-leadnews-apis.iml" filepath="$PROJECT_DIR$/heima-leadnews-apis/heima-leadnews-apis.iml" />
       <module fileurl="file://$PROJECT_DIR$/heima-leadnews-common/heima-leadnews-common.iml" filepath="$PROJECT_DIR$/heima-leadnews-common/heima-leadnews-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/heima-leadnews-model/heima-leadnews-model.iml" filepath="$PROJECT_DIR$/heima-leadnews-model/heima-leadnews-model.iml" />

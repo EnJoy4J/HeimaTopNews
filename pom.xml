@@ -15,6 +15,7 @@
         <module>heima-leadnews-model</module>
         <module>heima-leadnews-admin</module>
         <module>demo</module>
+        <module>heima-leadnews-admin-gateway</module>
     </modules>
 
     <!-- 继承Spring boot工程 -->
