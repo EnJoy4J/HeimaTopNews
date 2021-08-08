@@ -6,6 +6,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 
+import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.context.annotation.Bean;
 
@@ -14,7 +15,7 @@ import org.springframework.context.annotation.Bean;
  */
 @EnableDiscoveryClient
 @MapperScan("com.heima.admin.mapper")
-@SpringBootApplication
+@SpringBootApplication(exclude = {DataSourceAutoConfiguration.class })
 // TODO: 2021/8/7 adminApplication服务无法启动，找不到数据库驱动？
 public class AdminApplication {
 

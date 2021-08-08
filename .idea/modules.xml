@@ -9,7 +9,9 @@
       <module fileurl="file://$PROJECT_DIR$/heima-leadnews-apis/heima-leadnews-apis.iml" filepath="$PROJECT_DIR$/heima-leadnews-apis/heima-leadnews-apis.iml" />
       <module fileurl="file://$PROJECT_DIR$/heima-leadnews-common/heima-leadnews-common.iml" filepath="$PROJECT_DIR$/heima-leadnews-common/heima-leadnews-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/heima-leadnews-model/heima-leadnews-model.iml" filepath="$PROJECT_DIR$/heima-leadnews-model/heima-leadnews-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/heima-leadnews-user/heima-leadnews-user.iml" filepath="$PROJECT_DIR$/heima-leadnews-user/heima-leadnews-user.iml" />
       <module fileurl="file://$PROJECT_DIR$/heima-leadnews-utils/heima-leadnews-utils.iml" filepath="$PROJECT_DIR$/heima-leadnews-utils/heima-leadnews-utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/heima-leadnews-wemedia/heima-leadnews-wemedia.iml" filepath="$PROJECT_DIR$/heima-leadnews-wemedia/heima-leadnews-wemedia.iml" />
     </modules>
   </component>
 </project>

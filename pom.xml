@@ -14,8 +14,9 @@
         <module>heima-leadnews-apis</module>
         <module>heima-leadnews-model</module>
         <module>heima-leadnews-admin</module>
-        <module>demo</module>
         <module>heima-leadnews-admin-gateway</module>
+        <module>heima-leadnews-user</module>
+        <module>heima-leadnews-wemedia</module>
     </modules>
 
     <!-- 继承Spring boot工程 -->

@@ -5,6 +5,9 @@ import io.swagger.annotations.ApiParam;
 import lombok.Data;
 import lombok.extern.slf4j.Slf4j;
 
+/**
+ * @author 亚平
+ */
 @Data
 @Slf4j
 public class PageRequestDto {

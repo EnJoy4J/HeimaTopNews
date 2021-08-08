@@ -23,7 +23,6 @@ import java.util.Map;
 
 @Service
 @Transactional
-
 public class AdUserLoginServiceImpl extends ServiceImpl<AdUserMapper, AdUser> implements UserLoginService {
 
     /**
