@@ -17,9 +17,9 @@ public interface WmUserControllerApi {
 
     /**
      * 根据名称查找自媒体用户124
-     * @param name
+     * @param userName
      * @return
      */
-    public WmUser findByName(String name);
+    public WmUser findByName(String userName);
 
 }
