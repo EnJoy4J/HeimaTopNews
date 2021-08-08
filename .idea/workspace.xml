@@ -7,42 +7,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b71271f-c217-441b-80c2-1b3ec1ee4477" name="Default Changelist" comment="token校验拦截器（第二版）AdminApplication服务无法启动">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heima-leadnews-apis/src/main/java/com/heima/apis/admin/ApUserRealnameControllerApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heima-leadnews-apis/src/main/java/com/heima/apis/admin/WmUserControllerApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heima-leadnews-model/src/main/java/com/heima/model/user/dtos/AuthDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heima-leadnews-model/src/main/java/com/heima/model/user/pojos/ApUserRealname.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heima-leadnews-user/heima-leadnews-user.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heima-leadnews-user/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heima-leadnews-user/src/main/java/com/heima/user/UserApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heima-leadnews-user/src/main/java/com/heima/user/controller/ApUserRealnameController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heima-leadnews-user/src/main/java/com/heima/user/mapper/ApUserRealnameMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heima-leadnews-user/src/main/java/com/heima/user/service/ApUserRealnameService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heima-leadnews-user/src/main/java/com/heima/user/service/Impl/ApUserRealnameServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heima-leadnews-user/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heima-leadnews-wemedia/heima-leadnews-wemedia.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heima-leadnews-wemedia/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heima-leadnews-wemedia/src/main/java/com/heima/wemedia/WemediaApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heima-leadnews-wemedia/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/smartfox_info.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima-leadnews-admin-gateway/heima-leadnews-admin-gateway.iml" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-admin-gateway/heima-leadnews-admin-gateway.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima-leadnews-admin/heima-leadnews-admin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-admin/heima-leadnews-admin.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima-leadnews-admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-admin/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima-leadnews-admin/src/main/java/com/heima/admin/AdminApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-admin/src/main/java/com/heima/admin/AdminApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima-leadnews-admin/src/main/java/com/heima/admin/service/Impl/AdUserLoginServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-admin/src/main/java/com/heima/admin/service/Impl/AdUserLoginServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima-leadnews-admin/src/main/java/com/heima/admin/service/Impl/UserLoginServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima-leadnews-admin/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-admin/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima-leadnews-model/src/main/java/com/heima/model/common/dtos/PageRequestDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-model/src/main/java/com/heima/model/common/dtos/PageRequestDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima-leadnews-model/src/main/java/com/heima/model/media/pojos/WmUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-model/src/main/java/com/heima/model/media/pojos/WmUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/leadnews.2021-08-07.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/leadnews.2021-08-07.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="6b71271f-c217-441b-80c2-1b3ec1ee4477" name="Default Changelist" comment="app端用户列表查询&#10;+自媒体用户保存和按照名字查询自媒体用户">
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-apis/src/main/java/com/heima/apis/admin/WmUserControllerApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-apis/src/main/java/com/heima/apis/admin/WmUserControllerApi.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +27,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="HARD" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -258,7 +225,7 @@
       <workItem from="1628305648756" duration="5919000" />
       <workItem from="1628314385900" duration="1620000" />
       <workItem from="1628317826181" duration="23700000" />
-      <workItem from="1628415006330" duration="6275000" />
+      <workItem from="1628415006330" duration="6576000" />
     </task>
     <task id="LOCAL-00001" summary="设置git.ignore">
       <created>1626868489890</created>
@@ -316,7 +283,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628310446166</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="app端用户列表查询&#10;+自媒体用户保存和按照名字查询自媒体用户">
+      <created>1628423761373</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1628423761373</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -333,7 +307,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="github/master" />
+                        <option value="master" />
                       </list>
                     </value>
                   </entry>
@@ -356,7 +330,8 @@
     <MESSAGE value="token校验拦截器" />
     <MESSAGE value="token校验拦截器（第二版）" />
     <MESSAGE value="token校验拦截器（第二版）AdminApplication服务无法启动" />
-    <option name="LAST_COMMIT_MESSAGE" value="token校验拦截器（第二版）AdminApplication服务无法启动" />
+    <MESSAGE value="app端用户列表查询&#10;+自媒体用户保存和按照名字查询自媒体用户" />
+    <option name="LAST_COMMIT_MESSAGE" value="app端用户列表查询&#10;+自媒体用户保存和按照名字查询自媒体用户" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
