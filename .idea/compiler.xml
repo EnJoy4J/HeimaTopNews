@@ -13,6 +13,7 @@
         <module name="heima-leadnews-admin-gateway" />
         <module name="heima-leadnews-user" />
         <module name="heima-leadnews-admin" />
+        <module name="heima-leadnews-article" />
         <module name="heima-leadnews-common" />
         <module name="heima-leadnews-model" />
         <module name="demo" />
@@ -24,6 +25,7 @@
       <module name="heima-leadnews-admin" target="1.8" />
       <module name="heima-leadnews-admin-gateway" target="1.8" />
       <module name="heima-leadnews-apis" target="1.8" />
+      <module name="heima-leadnews-article" target="1.8" />
       <module name="heima-leadnews-common" target="1.8" />
       <module name="heima-leadnews-model" target="1.8" />
       <module name="heima-leadnews-user" target="1.8" />
@@ -38,6 +40,7 @@
       <module name="heima-leadnews-admin" options="-parameters" />
       <module name="heima-leadnews-admin-gateway" options="-parameters" />
       <module name="heima-leadnews-apis" options="-parameters" />
+      <module name="heima-leadnews-article" options="-parameters" />
       <module name="heima-leadnews-common" options="-parameters" />
       <module name="heima-leadnews-model" options="-parameters" />
       <module name="heima-leadnews-user" options="-parameters" />

@@ -88,7 +88,7 @@ public class ApUserRealname {
     /**
      *  创建时间
      */
-    @TableField("create_time")
+    @TableField("created_time")
     private Date createdTime;
 
     /**

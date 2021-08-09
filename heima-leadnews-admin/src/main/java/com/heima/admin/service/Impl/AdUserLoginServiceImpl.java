@@ -30,7 +30,7 @@ public class AdUserLoginServiceImpl extends ServiceImpl<AdUserMapper, AdUser> im
      * 2.查表用户是否存在
      * 3.封装数据，返回结果
      *
-     * @param adUserDto
+     * @param adUserDto 前端页面传输的对象
      * @return
      */
     @Override
@@ -46,6 +46,9 @@ public class AdUserLoginServiceImpl extends ServiceImpl<AdUserMapper, AdUser> im
         //判断查询结果
         if (list != null && list.size() == 1) {
             //如果用户存在，那就核对密码
+            /**
+             * @adUser 数据库中的用户对象
+             */
             AdUser adUser = list.get(0);
             //用用户的盐+输入的盐进行计算，得到一个md5值
             // TODO: 2021/8/4 为什么用手动加密的不用BCrypt
