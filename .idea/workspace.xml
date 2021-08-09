@@ -7,7 +7,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b71271f-c217-441b-80c2-1b3ec1ee4477" name="Default Changelist" comment="app端用户列表查询&#10;+自媒体用户保存和按照名字查询自媒体用户&#10;1111" />
+    <list default="true" id="6b71271f-c217-441b-80c2-1b3ec1ee4477" name="Default Changelist" comment="app端用户列表查询&#10;+自媒体用户保存和按照名字查询自媒体用户&#10;1111&#10;2222">
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-wemedia/src/main/java/com/heima/wemedia/controller/WmUserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-wemedia/src/main/java/com/heima/wemedia/mapper/WmUserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-wemedia/src/main/java/com/heima/wemedia/service/WmUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-wemedia/src/main/java/com/heima/wemedia/service/WmUserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/leadnews.2021-08-09.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-admin/heima-leadnews-admin-gateway/heima-leadnews-admin-gateway.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-admin/heima-leadnews-admin-gateway/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-admin/heima-leadnews-admin-gateway/src/main/java/com/heima/admin/gateway/GatewayApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-admin/heima-leadnews-admin-gateway/src/main/java/com/heima/admin/gateway/filter/AuthorizeFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-admin/heima-leadnews-admin-gateway/src/main/java/com/heima/admin/gateway/utils/AppJwtUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-admin/heima-leadnews-admin-gateway/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-admin/heima-leadnews-admin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-admin/heima-leadnews-admin.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-admin/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-admin/src/main/java/com/heima/admin/AdminApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-admin/src/main/java/com/heima/admin/AdminApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-admin/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-admin/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-apis/src/main/java/com/heima/apis/admin/WmUserControllerApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-apis/src/main/java/com/heima/apis/admin/WmUserControllerApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-wemedia/heima-leadnews-wemedia.iml" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-wemedia/heima-leadnews-wemedia.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-wemedia/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-wemedia/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-wemedia/src/main/java/com/heima/wemedia/WemediaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-wemedia/src/main/java/com/heima/wemedia/WemediaApplication.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,12 +40,17 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package.json" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="HARD" />
     <option name="UPDATE_TYPE" value="REBASE" />
@@ -127,16 +155,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="heima-leadnews-apis" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="test" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="AdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="heima-leadnews-admin" />
       <extension name="coverage">
@@ -176,13 +194,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WemediaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="heima-leadnews-wemedia" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.heima.wemedia.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.heima.wemedia.WemediaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.AdminApplication" />
-        <item itemvalue="Spring Boot.GatewayApplication" />
+        <item itemvalue="Spring Boot.WemediaApplication" />
         <item itemvalue="Spring Boot.UserApplication" />
+        <item itemvalue="Spring Boot.GatewayApplication" />
         <item itemvalue="Application.MD5Test" />
-        <item itemvalue="JUnit.test.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -223,7 +254,7 @@
       <workItem from="1628305648756" duration="5919000" />
       <workItem from="1628314385900" duration="1620000" />
       <workItem from="1628317826181" duration="23700000" />
-      <workItem from="1628415006330" duration="6891000" />
+      <workItem from="1628415006330" duration="15843000" />
     </task>
     <task id="LOCAL-00001" summary="设置git.ignore">
       <created>1626868489890</created>
@@ -295,7 +326,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628424023791</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="app端用户列表查询&#10;+自媒体用户保存和按照名字查询自媒体用户&#10;1111&#10;2222">
+      <created>1628424498927</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1628424498927</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -312,7 +350,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="origin/master2" />
                       </list>
                     </value>
                   </entry>
@@ -337,7 +375,8 @@
     <MESSAGE value="token校验拦截器（第二版）AdminApplication服务无法启动" />
     <MESSAGE value="app端用户列表查询&#10;+自媒体用户保存和按照名字查询自媒体用户" />
     <MESSAGE value="app端用户列表查询&#10;+自媒体用户保存和按照名字查询自媒体用户&#10;1111" />
-    <option name="LAST_COMMIT_MESSAGE" value="app端用户列表查询&#10;+自媒体用户保存和按照名字查询自媒体用户&#10;1111" />
+    <MESSAGE value="app端用户列表查询&#10;+自媒体用户保存和按照名字查询自媒体用户&#10;1111&#10;2222" />
+    <option name="LAST_COMMIT_MESSAGE" value="app端用户列表查询&#10;+自媒体用户保存和按照名字查询自媒体用户&#10;1111&#10;2222" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

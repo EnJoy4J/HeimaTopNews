@@ -16,7 +16,7 @@ public interface WmUserControllerApi {
     public ResponseResult save(WmUser user);
 
     /**
-     * 根据名称查找自媒体用户124
+     * 根据名称查找自媒体用户
      * @param userName
      * @return
      */
